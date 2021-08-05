@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minha página</title>
+    <!-- <script type="text/javascript" src="js/main.js" ></script> -->
+    <!-- <script type="text/javascript" src="js/function.js" ></script> -->
+    <script type="text/javascript" src="js/manipulando-elementos.js" ></script>
+</head>
+<body onload="load()">
+    <h1>Minha página</h1>
+    <!-- Manipulando elementos-->
+    <button type="button" onclick="clicar()">Clique aqui</button>   
+    <button type="button" onclick="paginaGoogle()">acesse o google</button>
+    <button type="button" onclick="meuLinkedin()">acesse meu Linkedin</button>
+    <p onmouseover="mouseSobre(this)" onmouseout="voltar(this)">Passe o mouse sobre</p>
+    <p onmouseover="mouseSobre(this)" onmouseout="voltar(this)">Passe o mouse sobre</p>
+
+    <select onchange="escolha(this)">
+        <option value="1">Valor 1</option>
+        <option value="2">Valor 2</option>
+        <option value="3">Valor 3</option>
+    </select>
+    <p id="agradecimento" </p>
+</body>
+</html>
